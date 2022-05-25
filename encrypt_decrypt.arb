@@ -1,6 +1,6 @@
 def encrypt(text, n)
   return text if text.nil? || n <= 0
-  
+
   n.times do
     even = (0..text.length).step(2).to_a
     odd = (1..text.length).step(2).to_a
